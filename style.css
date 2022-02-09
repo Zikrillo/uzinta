@@ -270,3 +270,25 @@ footer{
 .mobile-nav{
     display: none;
 }
+.burger__menu{
+    position: fixed;
+    width: 70%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+    transform: translateX(-150%);
+    transition: 500ms;
+    display: flex;
+    flex-direction: column;
+}
+.burger__menu span{
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.burger__menu span:first-child{
+    margin-top: 80px;
+}
+.burger_active{
+    transform: translateX(0%);
+    box-shadow: 5px 5px 5px rgba(223, 214, 250, 0.315);
+}
