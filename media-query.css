@@ -5,6 +5,8 @@
     .intro__block{
         background-image: url("res/back-min.jpg");
         height: 500px;
+        background-position-y: 300%;
+        background-size:cover;
     }
     .information{
         flex-direction: column;
