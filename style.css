@@ -16,6 +16,7 @@ body{
     color: white;
     background-position-x: center;
     background-attachment: fixed;
+    position: relative;
     
 }
 .intro__block h1{
@@ -30,8 +31,8 @@ body{
     position: absolute;
     font-size: 413px;
     display: flex;
-    width: 100%;
-    height: 115%;
+    width: 105%;
+    height: 135%;
     align-items:flex-end;
     justify-content: end;
     font-weight: 800;
@@ -66,20 +67,13 @@ body{
 .up__text_part{
     font-size: 413px;
     font-weight: 800;
-    color: #7373FF;
-    clip-path: inset(0);
+    color: #00B22D;
+    
     margin-left: 85px;
 }
-.up__text_part img{
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
+
 .information h3{
-    color: #7373FF;
+    color: #00B22D;
     font-size: 42px;
     font-weight: 800;
     margin-top: 100px;
@@ -91,6 +85,21 @@ body{
     width: 550PX;
     margin-left: 85px;
     margin-right: 85px;
+}
+.up__text_part{
+    font-size: 413px;
+    font-weight: 800;
+    margin-left: 85px;
+
+}
+.up__text_part span{
+    color: white;  /* Fallback: assume this color ON TOP of image */
+    background: url("res/back (1).jpg") no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position-x:center;
+    background-position-y: center;
+   
 }
 .up__text_part__with__bg{
     font-size: 413px;
@@ -108,7 +117,7 @@ body{
    
 }
 .recent_news_block h3{
-    color: #7373FF;
+    color: #00B22D;
     font-size: 42px;
     font-weight: 800;
     margin-top: 100px;
@@ -144,7 +153,7 @@ body{
     
 }
 .news__block__item h4{
-    color: #7373FF;
+    color: #00B22D;
     font-size: 20px;
     margin-left: 50px;
     margin-top: 40px;
@@ -184,7 +193,7 @@ body{
     background-image: url("res/news3.jpg");
     background-size:cover;
     background-position-x:center;
-    background-position-y:center; 
+    background-position-y: 20%; 
 }
 .gallery__block{
     margin-bottom: 100px;
@@ -197,7 +206,7 @@ body{
     flex-direction: column;
 }
 .reason__block h2{
-    color:#7373FF;
+    color:#00B22D;
     font-weight: 800;
     font-size: 42px;
 }
@@ -209,7 +218,7 @@ body{
     justify-content: space-between;
 }
 .reason__item h3{
-    color:#7373FF;
+    color:#00B22D;
     font-weight: 800;
 }
 .map__block{
@@ -220,12 +229,12 @@ body{
     justify-content: space-between;
 }
 .map__block h2{
-    color:#7373FF;
+    color:#00B22D;
     font-weight: 800;
     font-size: 42px;
 }
 .map__block h3{
-    color:#7373FF;
+    color:#00B22D;
     max-width: 464px;
     font-size: 28px;
     margin-top: 0px;
@@ -246,7 +255,7 @@ body{
     align-items:center;
 }
 .follow__block h2{
-    color:#7373FF;
+    color:#00B22D;
     font-weight: 800;
     font-size: 42px;
 
@@ -257,4 +266,7 @@ footer{
     justify-content: center;
     margin-bottom: 5px;
     color: thistle;
+}
+.mobile-nav{
+    display: none;
 }
